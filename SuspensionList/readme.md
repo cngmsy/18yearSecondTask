@@ -3,7 +3,8 @@
 ![](flootview.gif)
 
 
-###步骤一:
+
+##步骤一:
 
   /*
   * 实现组的头部总是悬浮在顶部的listview
@@ -234,8 +235,10 @@
       }
 
 
-###步骤二:
 
+##步骤二:
+
+```
 /**
  *封装的adapter的抽象类
  tuill包中的SectionedBaseAdapter
@@ -470,8 +473,10 @@ public abstract class SectionedBaseAdapter extends BaseAdapter implements Pinned
     }
 
 }
+```
+##步骤三:
 
-###步骤三:
+```
 
 /**
  *实现了抽象类SectionedBaseAdapter的adapter
@@ -530,9 +535,10 @@ public class TestSectionedAdapter extends SectionedBaseAdapter {
     }
 
 }
+```
+##步骤四:
 
-###步骤四:
-
+```
 /*
 * 具体使用的activity
 */
@@ -564,5 +570,5 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 }
-
+```
 
