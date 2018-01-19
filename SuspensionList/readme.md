@@ -6,9 +6,9 @@
 
 ##步骤一:
 
-  /*
-  * 实现组的头部总是悬浮在顶部的listview
-    tuill包中的PinnedHeaderListView
+```
+/**
+  * 实现组的头部总是悬浮在顶部的listview tuill包中的PinnedHeaderListView
   */
 
   public class PinnedHeaderListView extends ListView implements OnScrollListener {
@@ -233,7 +233,7 @@
           public abstract void onSectionClick(AdapterView<?> adapterView, View view, int section, long id);
 
       }
-
+```
 
 
 ##步骤二:
