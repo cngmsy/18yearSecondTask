@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="listview_even_bg">#00000000</color>
+    <color name="listview_odd_bg">#00000000</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <drawable name="black">#000000</drawable>
+    <drawable name="blue">#0000FF</drawable>
+    <drawable name="darkgray">#90505050</drawable>
+    <drawable name="gray">#90909090</drawable>
+    <drawable name="graybackground">#f0f0f0</drawable>
+    <drawable name="half_transparent">#e0000000</drawable>
+    <drawable name="lightgray">#606060</drawable>
+    <drawable name="lightgreen">#CAFF70</drawable>
+    <drawable name="lightred">#FD0D0D</drawable>
+    <drawable name="lightyellow">#FFFF99</drawable>
+    <drawable name="orange">#ffb90f</drawable>
+    <drawable name="pink">#ff83fa</drawable>
+    <drawable name="red">#CC0000</drawable>
+    <drawable name="themeblue">#00ccff</drawable>
+    <drawable name="tinygray">#EEE9E9</drawable>
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="white">#FFFFFF</drawable>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MusicPlayOnline</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_click_notify">View download task list</string>
+    <string name="download_continue">Continue</string>
+    <string name="download_delete_task">Delete download task</string>
+    <string name="download_delete_task_file">Delete download task and file</string>
+    <string name="download_deleted_task_file_ok">Download task and file  deleted</string>
+    <string name="download_deleted_task_ok">Download task  deleted</string>
+    <string name="download_downloaded">Downloaded</string>
+    <string name="download_downloading">downloading</string>
+    <string name="download_failed">Failed</string>
+    <string name="download_file">Downloaded  %1$s</string>
+    <string name="download_file_not_exist">File not exist</string>
+    <string name="download_finished">Finished</string>
+    <string name="download_finishing">Downloaded %1$s%</string>
+    <string name="download_initial">Initial</string>
+    <string name="download_install">Install</string>
+    <string name="download_installed">Installed</string>
+    <string name="download_invalid_url">Invalid download url</string>
+    <string name="download_list_action">com.zxt.download2.action</string>
+    <string name="download_manager">Download manager</string>
+    <string name="download_notification">A download task finished</string>
+    <string name="download_paused">Paused</string>
+    <string name="download_speed">Download %1$s percent, speed %2$s KB/S</string>
+    <string name="download_stopped">Stopped</string>
+    <string name="download_task1">Add download task without status bar notification</string>
+    <string name="download_task2">Add download task with status bar notification</string>
+    <string name="download_task3">Add download  task apk with install after downloaded</string>
+    <string name="download_task4">Add download  task  video with sdcard image </string>
+    <string name="download_task5">Add download  task  video with online image</string>
+    <string name="download_task_added">A download task have been added to queue.</string>
+    <string name="downloaded_installed">Installed</string>
+    <string name="downloading_msg">Downloading…</string>
+    <string name="go_to_downloaded_list">Go to downloaded list</string>
+    <string name="go_to_downloading_list">Go to downloading list</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_url_download">Please input a http download url</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

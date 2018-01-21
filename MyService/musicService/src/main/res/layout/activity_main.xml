@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+<Button android:id="@+id/id_Localmusic"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_margin="16dp"
+    android:text="本地音乐"
+    android:gravity="center"
+    android:textColor="@drawable/lightgray"
+    android:textSize="16sp"/>
+
+<Button android:id="@+id/id_onlinemusic"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_margin="16dp"
+    android:text="网络音乐"
+    android:gravity="center"
+    android:textColor="@drawable/lightgray"
+    android:textSize="16sp"/>
+<Button android:id="@+id/id_service"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_margin="16dp"
+    android:text="启动Service"
+    android:gravity="center"
+    android:textColor="@drawable/lightgray"
+    android:textSize="16sp"/>
+<Button android:id="@+id/id_stop_service"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_margin="16dp"
+    android:text="关闭Service"
+    android:gravity="center"
+    android:textColor="@drawable/lightgray"
+    android:textSize="16sp"/>
+</LinearLayout>
+<include layout="@layout/foot_player_bar"/>
+</LinearLayout>

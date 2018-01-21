@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="darkgray">#90505050</drawable>
+  <drawable name="white">#FFFFFF</drawable>
+  <drawable name="black">#000000</drawable>
+  <drawable name="blue">#0000FF</drawable>
+  <drawable name="themeblue">#00ccff</drawable>
+  <drawable name="lightred">#FD0D0D</drawable>
+  <drawable name="lightgray">#606060</drawable>
+ <drawable name="red">#CC0000</drawable>
+ <drawable name="lightyellow">#FFFF99</drawable>
+  <drawable name="transparent">#00000000</drawable>
+  <drawable name="half_transparent">#e0000000</drawable>
+  <drawable name="graybackground">#f0f0f0</drawable>
+  <drawable name="gray">#90909090</drawable>
+  <drawable name="orange">#ffb90f</drawable>
+   <drawable name="pink">#ff83fa</drawable>
+    <drawable name="tinygray">#EEE9E9</drawable>
+     <drawable name="lightgreen">#CAFF70</drawable>
+</resources>

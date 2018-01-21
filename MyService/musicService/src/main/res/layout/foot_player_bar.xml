@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:layout_marginBottom="8dp" >
+  
+    <LinearLayout  
+        android:id="@+id/linearLayout2"  
+        android:layout_width="match_parent" 
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" 
+        android:layout_height="wrap_content"  
+        android:gravity="center" >  
+  
+        <TextView  
+            android:id="@+id/id_curr_time"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_marginRight="5dp"  
+            android:text="00:00" />  
+  
+        <SeekBar  
+            android:id="@+id/id_seekBar"
+            android:thumb="@drawable/my_thumb"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_weight="1" />  
+  
+        <TextView  
+            android:id="@+id/id_total_time"  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_marginLeft="5dp"  
+            android:text="00:00" />  
+    </LinearLayout>  
+    <LinearLayout android:id="@+id/id_footer_player_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+    <ImageView android:id="@+id/id_circulate_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"/>
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp">
+        <TextView 
+            android:id="@+id/id_playing_songname_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:gravity="center_vertical"
+            android:textSize="14sp"
+            android:singleLine="true"/>
+        <TextView android:id="@+id/id_playing_singer_tv"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="#606060"
+            android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+      	<LinearLayout 
+      	    android:id="@+id/id_playmenu_layout"
+      	    android:layout_width="0dp"
+      	    android:layout_weight="1"
+      	    android:layout_height="match_parent"
+      	    android:gravity="center" 
+      	    android:clickable="true">
+      	    <ImageView android:src="@drawable/listred"
+      	        android:id="@+id/id_list_img"
+      	        android:layout_width="20dp"
+      	        android:layout_height="20dp"
+      	        android:layout_gravity="center"
+      	       />
+      	</LinearLayout>
+      	<LinearLayout 
+      	    android:id="@+id/id_play_layout"
+      	    android:layout_width="0dp"
+      	    android:layout_weight="1"
+      	    android:layout_height="match_parent"
+      	    android:gravity="center"
+      	    android:clickable="true">
+      	    <ImageView android:src="@drawable/playred"
+      	        android:id="@+id/id_play_img"
+      	        android:layout_width="35dp"
+      	        android:layout_height="35dp"
+      	        android:layout_gravity="center"
+      	        />
+      	</LinearLayout>
+      	<LinearLayout 
+      	    android:id="@+id/id_next_layout"
+      	    android:layout_width="0dp"
+      	    android:layout_weight="1"
+      	    android:layout_height="match_parent"
+      	    android:gravity="center"
+      	    android:clickable="true">
+      	    <ImageView android:src="@drawable/nextred"
+      	        android:id="@+id/id_next_img"
+      	        android:layout_width="25dp"
+      	        android:layout_height="25dp"
+      	        android:layout_gravity="center"/>
+      	</LinearLayout>
+    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

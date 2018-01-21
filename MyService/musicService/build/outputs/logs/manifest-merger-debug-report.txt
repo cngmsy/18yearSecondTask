@@ -1,0 +1,75 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:2:1-32:12
+	package
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenov\.android\build-cache\b962c87ec4e6871e452e4e3e857d5ca182c5a781\output\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+		INJECTED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:10:2-63
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:10:19-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:11:22-78
+application
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:12:5-30:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\lenov\.android\build-cache\b962c87ec4e6871e452e4e3e857d5ca182c5a781\output\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:13:9-35
+	android:icon
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:14:9-45
+	android:theme
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:16:9-68
+activity#com.example.musicservice.MainActivity
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:17:9-25:20
+	android:label
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:19:13-45
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:18:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.musicservice.LocalMusicActivity
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:26:9-65
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:26:19-53
+activity#com.example.musicservice.OnlineMusicActivity
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:27:9-66
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:27:19-54
+service#com.example.musicservice.MusicService
+ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:28:11-83
+	android:name
+		ADDED from D:\DaiMa\MyService\musicService\src\main\AndroidManifest.xml:28:20-72

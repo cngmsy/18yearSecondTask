@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="output"><source path="C:\Users\lenov\.android\build-cache\b962c87ec4e6871e452e4e3e857d5ca182c5a781\output\assets"/></dataSet><dataSet config="main"><source path="D:\DaiMa\MyService\musicService\src\main\assets"/><source path="D:\DaiMa\MyService\musicService\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\DaiMa\MyService\musicService\src\debug\assets"/></dataSet></merger>

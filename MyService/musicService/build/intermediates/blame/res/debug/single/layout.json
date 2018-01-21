@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\playlist_top.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\playlist_top.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\localmusic_list_activity.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\localmusic_list_activity.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\local_music_list_item.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\local_music_list_item.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\playlist_item.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\playlist_item.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\foot_player_bar.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\foot_player_bar.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_main_activity.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\drawer_main_activity.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_main_songlist_activity.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\drawer_main_songlist_activity.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\local_music_activity.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\local_music_activity.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\main_songlist_activity.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\main_songlist_activity.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\songlist_info.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\songlist_info.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\layout\\songinfo.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\layout\\songinfo.xml"
+    }
+]

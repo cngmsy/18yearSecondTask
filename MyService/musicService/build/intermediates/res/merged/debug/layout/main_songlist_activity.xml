@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+ 
+<ScrollView 
+    android:id="@+id/ScrollView"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:layout_marginBottom="58dp"
+    android:background="#FFFFFF"  
+    android:scrollbars="vertical" >  
+    <LinearLayout  
+        android:id="@+id/LinearLayout"  
+        android:gravity="center_horizontal"  
+        android:background="#FFFFFF"  
+        android:layout_width="fill_parent"  
+        android:layout_height="match_parent"  
+        android:orientation="vertical" >  
+       <include layout="@layout/songlist_info"/>
+		<LinearLayout 
+		    android:id="@+id/id_playall_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:orientation="horizontal">
+		    <ImageView android:src="@drawable/palyall"
+		        android:layout_width="25dp"
+		        android:layout_height="25dp"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="20dp"/>
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="20dp"
+		        android:text="播放全部"
+		        android:textSize="14sp"/>
+		    <TextView 
+		        android:id="@+id/id_songcounts_tv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:text="（共0首）"
+		        android:textColor="@drawable/lightgray"
+		        android:textSize="30px"/>
+		</LinearLayout>
+		<com.example.musicservice.NoScrollListView   
+            android:id="@+id/id_listView"  
+            android:layout_width="fill_parent"  
+            android:layout_height="match_parent" 
+            android:dividerHeight="0.0dip"  
+            android:fadingEdge="none"  
+            android:cacheColorHint="#FFF4F4F4"/>  
+	</LinearLayout>   
+</ScrollView>  
+
+
+
+<include layout="@layout/foot_player_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"/>"
+
+
+</RelativeLayout>

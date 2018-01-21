@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+   <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:background="#00ccff">
+    <Button android:id="@+id/id_back_btn"
+    
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="返回"
+        android:textColor="@drawable/white"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="@drawable/transparent"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/id_title_tv"
+        android:layout_toRightOf="@id/id_back_btn"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:text="本地音乐"
+        android:textColor="@drawable/white"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/id_title_tv1"
+        android:layout_toRightOf="@id/id_title_tv"
+        android:gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@drawable/white"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/id_more_img"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+		android:src="@drawable/morewhite"
+		android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"/>
+    
+</RelativeLayout>
+
+     <ScrollView 
+    android:id="@+id/id_ScrollView"  
+    android:layout_width="fill_parent"  
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:background="#F0f0f0"  
+    android:scrollbars="vertical" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout 
+		    android:id="@+id/id_playall_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:orientation="horizontal"
+		    android:background="#ffffff">
+		    <ImageView android:src="@drawable/palyall"
+		        android:layout_width="25dp"
+		        android:layout_height="25dp"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="20dp"/>
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="20dp"
+		        android:text="播放全部"
+		        android:textSize="15sp"/>
+		    <TextView 
+		        android:id="@+id/id_songcounts_tv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center_vertical"
+		        android:layout_marginLeft="10dp"
+		        android:text="（共0首）"
+		        android:textColor="@drawable/lightgray"
+		        android:textSize="13sp"/>
+		</LinearLayout>
+		
+		<com.example.musicservice.NoScrollListView  
+            android:id="@+id/id_listView"  
+            android:layout_width="fill_parent"  
+            android:layout_height="0dp"
+            android:layout_weight="1"   
+            android:dividerHeight="0.0dip"  
+            android:fadingEdge="none"  
+            android:cacheColorHint="#FFF4F4F4"/>
+		
+        </LinearLayout>
+    </ScrollView> 
+   <LinearLayout 
+		    android:id="@+id/id_search_finished_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="60dp"
+		    android:layout_gravity="bottom"
+		    android:orientation="horizontal"
+		    android:gravity="center"
+		    android:visibility="gone"
+		    android:background="#F0f0f0">
+ 
+		    <TextView
+		        android:id="@+id/id_search_finished_tv"
+		        android:layout_width="200dp"
+		        android:layout_height="40dp"
+		        android:layout_gravity="center"
+		        android:layout_margin="10dp"
+		        android:background="#00ccff"
+		        android:gravity="center"
+		        android:text="扫描完成"
+		        android:textColor="@drawable/white"
+		        android:textSize="25sp" />
+		   	
+		</LinearLayout>
+
+    <LinearLayout 
+		    android:id="@+id/id_search_progress_layout"
+		    android:layout_width="match_parent"
+		    android:layout_height="70dp"
+		    android:layout_gravity="bottom"
+		    android:orientation="horizontal"
+		 	android:visibility="gone"
+		    android:background="#F0f0f0">
+		    <TextView android:text="正在搜索："
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp"
+		        android:textSize="13sp"
+		        android:textColor="@drawable/lightgray"/>
+		   	<TextView android:id="@+id/id_search_progress_tv"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp"
+		        android:textSize="13sp"
+		        android:textColor="@drawable/lightgray"/>
+		</LinearLayout>
+   <include layout="@layout/foot_player_bar"/>"
+</LinearLayout>

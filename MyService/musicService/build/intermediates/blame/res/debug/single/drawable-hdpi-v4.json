@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\head64.jpg",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\drawable-hdpi\\head64.jpg"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_left_tab.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\drawable-hdpi\\download_left_tab.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\songlistbackground.jpg",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\drawable-hdpi\\songlistbackground.jpg"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_right_tab.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\drawable-hdpi\\download_right_tab.xml"
+    },
+    {
+        "merged": "D:\\DaiMa\\MyService\\musicService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\download_progressbar.xml",
+        "source": "D:\\DaiMa\\MyService\\musicService\\src\\main\\res\\drawable-hdpi\\download_progressbar.xml"
+    }
+]
