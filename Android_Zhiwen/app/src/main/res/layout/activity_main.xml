@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393939"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv1" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv3" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv4" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv6" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv7" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv9" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv10" />
+
+        <com.example.lenovo.android_zhiwen.TouchFingerImageView
+            android:id="@+id/tfiv11"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv11" />
+
+    </LinearLayout>
+</LinearLayout>
