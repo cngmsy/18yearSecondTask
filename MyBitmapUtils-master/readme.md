@@ -3,8 +3,8 @@
 ![](sanjihuancun.gif)
 
 
-
 #实现的核心代码是
+
 ###步骤一:
 、、、
        /**
@@ -16,13 +16,9 @@
             * LinkedHashMap<>(10,0.75f,true);
             * <p/>
             * 10是最大致   0.75f是加载因子   true是访问排序   false插入排序
-            *
-            *
             */
            //private LinkedHashMap<String,Bitmap> mMemoryCache = new LinkedHashMap<>(5,0.75f,true);
-
            private LruCache<String, Bitmap> mLruCache;
-
 
            public MemoryCacheUtils() {
                long maxMemory = Runtime.getRuntime().maxMemory();//最大内存  默认是16兆  运行时候的
@@ -40,11 +36,9 @@
 
            /**
             * 从内存中读取
-            *
             * @param url
             */
            public Bitmap getFromMemroy(String url) {
-
                Log.d("MyBitmapUtils", "从内存中加载图片");
                return mLruCache.get(url);
            }
@@ -67,7 +61,6 @@
  * 自定义的bitmap工具类
  */
 public class MyBitmapUtils {
-
 
     /**
      * 网络缓存
@@ -99,7 +92,6 @@ public class MyBitmapUtils {
      */
     public void display(ImageView image, String url) {
 
-
         //从内存中读取
         Bitmap fromMemroy = mMemoryCacheUtils.getFromMemroy(url);
         //如果内存中有的h话就直接返回，从内存中读取
@@ -108,7 +100,6 @@ public class MyBitmapUtils {
 
             return;
         }
-
 
         //从本地SD卡读取
         Bitmap fromSd = mSdCacheUtils.getFromSd(url);
@@ -125,8 +116,11 @@ public class MyBitmapUtils {
     }
 }
 、、、
+
 ###步骤三:
+
 、、、
+
 /**
      * 从网络中下载图片
      *
@@ -163,9 +157,7 @@ public class MyBitmapUtils {
             mUrl = (String) params[1];
             //将imageview和url绑定，防止错乱
             mImageView.setTag(mUrl);
-
             Bitmap bitmap = downLoadBitmap(mUrl);
-
             return bitmap;
         }
 
@@ -251,10 +243,12 @@ public class MyBitmapUtils {
 
         return null;
     }
-  、、、
+、、、
 
 ###步骤四:
+
 、、、
+
   /**
        * 从本地读取
        * @param url
@@ -325,4 +319,4 @@ public class MyBitmapUtils {
               e.printStackTrace();
           }
 
-          、、、
+、、、
