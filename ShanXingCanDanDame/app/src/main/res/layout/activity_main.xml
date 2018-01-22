@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.shanxingcandandame.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/menu_caidan1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/ff"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/menu_caidan2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/ee"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/menu_caidan3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/dd"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/menu_caidan4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/cc"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/menu_caidan5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/bb"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/menu_caidan"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/aa"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="click"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
